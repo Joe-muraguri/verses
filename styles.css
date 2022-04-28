@@ -1,0 +1,36 @@
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  background-color: #06bcc1;
+}
+.container {
+  width: 95%;
+  height: 80vh;
+  display: flex;
+  text-align: center;
+}
+.verses {
+  font-size: 1.5rem;
+}
+.verses h3 {
+  font-size: 1.5rem;
+}
+@media (max-width: 480px) {
+  .verses p,
+  .verses h3 {
+    font-size: 1rem;
+  }
+}
+
+.verses {
+  width: 900px;
+  height: 450px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  color: gray;
+  background-color: #f4edea;
+  border: 10px solid #f4d1ae;
+}
